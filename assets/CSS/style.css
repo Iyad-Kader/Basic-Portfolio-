@@ -1,0 +1,19 @@
+  .headerbox1 {
+      display: grid;
+      grid-column: 500px;
+      grid-template-columns: 1fr;
+      text-align: center;
+
+    }
+
+
+    .headerbox1>div {
+      background: grey;
+      padding: 1em;
+
+    }
+
+    .headerbox1>div:nth-child(odd) {
+      background: lightgreen;
+      
+    }
